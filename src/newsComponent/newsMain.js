@@ -4,7 +4,7 @@ import NewsContents from './newContent';
 import Footer from './footer';
 
 const NewsApi = () => {
-    const [news, setnews] = useState([]);
+    const [news, setnews ] = useState([]);
     
     const GetNewsApi = async () => {
         let response = await fetch(`https://newsapi.org/v2/top-headlines?country=us&apiKey=ac47b9c549144c17b90666133a344f35`);
@@ -18,6 +18,7 @@ const NewsApi = () => {
             );
         })
 
+        
         setnews(results)
     }
 

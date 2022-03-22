@@ -9,7 +9,7 @@ function NewsContents({ text, index }) {
                     <img className="w-full" src={text.urlToImage} alt="Sunset in the mountains" />
                     <div className="px-3 py-4">
                         <div className="font-bold text-xl mb-2">
-                            <span>{text.author}</span> <br /> <br />
+                            <span> {text.author} </span> <br /> <br />
                             <span>{text.title}</span>
                             <p className="font-bold text-xl mb-2">{text.email}</p>
                         </div>
