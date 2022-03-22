@@ -5,7 +5,7 @@ import NewsApi from './newsComponent/newsMain';
 function App() {
   return (
     <>
-       <NewsApi/>
+     <NewsApi/>
     </>
     
    

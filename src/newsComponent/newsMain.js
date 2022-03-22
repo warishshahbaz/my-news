@@ -13,7 +13,6 @@ const NewsApi = () => {
             return (
                 <div >
                     <NewsContents text={currElem} key={index} index={index} />
-
                 </div>
             );
         })
